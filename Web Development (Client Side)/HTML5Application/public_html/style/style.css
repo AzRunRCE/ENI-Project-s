@@ -1,0 +1,142 @@
+/* 
+    Created on : 20 août 2018, 11:53:07
+    Author     : qmz
+*/
+nav, body, html, main, aside {
+    height: 100%;
+}
+
+nav, main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+html {
+    width: 1050px;
+    margin: auto;
+}
+nav, aside 
+{
+    width: 214px;
+}
+nav {
+    background-color: #105777;
+    color: white;
+    padding: 0 0px 0 0px;
+}
+
+.leftpane {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: rgb(16,87,119);
+}
+
+main img {
+   
+    float: left;
+    display: inline-block;
+    padding: 0 30px 30px 10px
+   
+}
+
+.midlepane {
+    width: 60%;
+    height: 100%;
+    float: left;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.article {
+    text-align: justify;
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+
+.rightpane {
+    width: 20%;
+    height: 100%;
+    float: right;
+    position: relative;
+    background-color: rgb(249,247,237);
+    text-align: center;
+}
+
+.splitLine{
+    text-align: center;
+    font-size: 14px;
+}
+
+.citation {
+    font-style: oblique;
+    text-align: center;
+    padding-right: 8px;
+    font-family: "Times New Roman",Times,serif;
+}
+.PartnerLogo{
+    margin: auto;
+    display: block;
+}
+
+.center 
+{
+    text-align: center;
+}
+
+.turquoise{
+    color: #20b9ff;
+    font-style: italic;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+.PartnerLink
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: black;
+    text-align: center;
+}
+hr
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+a.menu_item,li.menu_item {
+    color: white;
+}
+
+nav li 
+{
+    list-style: none;
+   
+}
+nav li:before
+{
+     content: "> ";
+     text-decoration: underline;
+}
+
+main h1, main h2, main h3{
+    text-align: center;
+}
+
+main h3 {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: normal;
+}
+main p {
+    padding: 0 18px 18px 18px;
+    text-align: justify;
+    font-size: 14px;
+}
