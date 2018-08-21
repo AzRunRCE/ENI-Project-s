@@ -1,9 +1,10 @@
 {
-    "name": "HTML5Application",
+    "name": "td",
     "version": "1.0.0",
     "main": "path/to/main.css",
     "ignore": [
-        ".jshintrc", "**/*.txt"
+        ".jshintrc",
+        "**/*.txt"
     ],
     "dependencies": {
     },

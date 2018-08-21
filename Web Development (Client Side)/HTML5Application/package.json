@@ -1,8 +1,8 @@
 {
-    "name": "HTML5Application",
+    "name": "td",
     "version": "1.0.0",
     "keywords": ["util", "functional", "server", "client", "browser"],
-    "author": "Administrateur",
+    "author": "hboisgontier",
     "contributors": [],
     "dependencies": {}
 }
