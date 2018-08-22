@@ -1,0 +1,8 @@
+{
+    "name": "Pochettes",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "qmartinez2018",
+    "contributors": [],
+    "dependencies": {}
+}
