@@ -1,0 +1,25 @@
+label{
+    width: 100px;
+    display : inline-block;
+}
+
+input[type="text"], input[type="number"]{
+    width: 150px;
+    
+}
+
+
+div{
+    line-height: 1.5em;
+}
+
+#valider #remplir, #afficher, #copier{
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.error {
+    font-style: italic;
+    color: red; 
+}
