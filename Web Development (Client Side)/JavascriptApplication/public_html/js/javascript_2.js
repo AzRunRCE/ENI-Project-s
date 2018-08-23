@@ -54,13 +54,13 @@ function remplir_EventListener() {
 function valider_EventListener() {
 
     if (document.getElementById('nom').value.length > 10 || document.getElementById('prenom').value.length > 10) {
-        var para = document.createElement("i");
+        var para = document.createElement("span");
 
-        para.style.color = "red";
+        para.setAttribute("class", "error");
+        para.class = "error";
         var node = document.createTextNode("Nom/Prénom de plus de 10 caractères!");
         para.appendChild(node);
         var element = document.getElementById("phrase");
-
         clearChildElm(document.getElementById("phrase2"));
         clearChildElm(document.getElementById("phrase"));
         element.insertBefore(para, element.firstChild);
@@ -86,6 +86,6 @@ function afficher_EventListener() {
     para.appendChild(node);
     var element = document.getElementById("phrase2");
     clearChildElm(document.getElementById("phrase2"));
-    clearChildElm(document.getElementById("phrase"));
+   // clearChildElm(document.getElementById("phrase"));
     element.insertBefore(para, element.firstChild);
 }
