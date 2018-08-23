@@ -1,5 +1,7 @@
 ## Sans intervenir dans les fichiers html et css proposés :
 
+![JavascriptApplication Screenshot](https://github.com/AzzRun/ENI-Project-s/blob/master/Web%20Development%20(Client%20Side)/HTML5Application/res/Capture.PNG?raw=true)
+
 * Au chargement de la page : alimenter la liste des tailles
 
 * click sur Remplir : 
