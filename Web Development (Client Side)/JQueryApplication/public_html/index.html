@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+    <script src="js/javascript_2.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <section>
+        <form name="personneForm">
+            <div>
+                <label class="lab" for="nom">Nom : </label>
+                <input type="text" name="nom" id="nom" placeholder="Votre nom ..." />
+            </div>
+            
+            <div>
+                <label class="lab" for="prenom">Prénom : </label>
+                <input type="text" name="prenom" id="prenom" placeholder="Votre prénom ..." />
+            </div>
+            
+            <div>
+                <label class="lab" for="age">Age : </label>
+                <input type="number" min="1" max="120" name="age" id="age" placeholder="Votre age ..." />
+            </div>
+           <div>
+                <label class="lab" for="taille">Tailles :</label>
+                <select name="taille" id="taille">
+                </select>
+            </div>
+            <div>
+                <label class="lab" for="couleur">Couleurs :</label>
+                <select name="couleur" id="couleur">
+                    <option value="red"  >Rouge</option>
+                    <option value="green" >Vert</option>
+                    <option value="blue"  >Bleu</option>
+                    <option value="orange"  >Orange</option>		
+                    <option value="purple"  >Violet</option>		
+                    <option value="cyan"  >Cyan</option>		
+                    <option value="yellow"  >Jaune</option>		
+                    <option value="black"  >Noir</option>
+                </select>
+            </div>
+            <div>
+                <input type="button" id="valider" value="Valider" />
+                <input type="button" id="remplir" value="Remplir" />
+                <input type="button" id="afficher" value="Afficher" />
+        
+                
+            </div>
+            
+        </form>
+        
+    </section>
+
+    <section>
+        <div id="phrase"></div>
+        <div id="phrase2"></div>
+    </section>
+</body>
+</html>
