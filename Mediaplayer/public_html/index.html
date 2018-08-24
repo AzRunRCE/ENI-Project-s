@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap-4.1.3-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="fontawesome-free-5.2.0-web/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="styleMP.css" rel="stylesheet" type="text/css"/>
+        <script src="js/application.js" type="text/javascript"></script>
+        <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+
+    </head>
+    <body>
+        <main class="col-12 offset-sm-1 col-sm-10">
+            <div class="row">
+                <!-- Boutons de contrôle de la lecture -->
+                <div class="col-12 col-md-3">
+                    <div class="row">
+                        <button type="button" id="btn-control-left" class="col-3 btn btn-light"><span class="fa fa-arrow-circle-left"></span></button>
+                        <button type="button" id="btn-control-center" class="col-4 offset-1 btn btn-light"><span id="icn-control-center" class="fa fa-pause-circle"></span></button>
+                        <button type="button" id="btn-control-right" class="col-3 offset-1 btn btn-light"><span class="fa fa-arrow-circle-right"></span></button>
+                    </div>
+                    <div class="row">
+                        <button type="button" id="btn-volume-down" class="col-2 btn btn-light"><span class="fa fa-volume-down"></span></button>
+                        <div class="col-8"><input id="btn-volume-range" min="0.0" max="1.0" step="0.1" type="range"></div>
+                        <button type="button" id="btn-volume-up" class="col-2 btn btn-light"><span class="fa fa-volume-up"></span></button>
+                    </div>
+                </div>
+                <!-- Affichage du titre et de son avencement -->
+                <div class="col-12 col-sm-6 col-md-4 offset-md-1">
+                    <h2 id="lbl-artist-name">Nom de l'artiste</h2>
+                    <h1 id="lbl-song-name">Nom du morceau</h1>
+                    <input type="range" id="btn-current-time" value="0" step="0.1" >
+                </div>
+                <!-- recherche -->
+                <div class="col-12 col-sm-6 col-md-3 offset-md-1">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text fa fa-search"></div>
+                        </div>
+                        <input type="text" id="search-criteria" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <nav class="col-12 col-sm-3 col-md-2">
+                    <ul class="list-group">
+                        <li class="list-group-item selectionne" id="list-group-item-music">Musique</li>
+                        <li class="list-group-item" id="list-group-item-video">Vidéo</li>
+                        <li class="list-group-item">Podcast</li>
+                    </ul>
+                </nav>
+                <div class="col-12 col-sm-9 col-md-8">
+                    <ul class="row" id="musics-view">
+                    </ul>
+                    <video id="video-player" class="center videoplayer" width="620" height="480" autoplay>
+                        <source id="mp4_src" src="movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                    <ul class="row" id="videos-view">
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <audio id="audio" controls autoplay>
+            <source id="mp3_src" src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </body>
+</html>

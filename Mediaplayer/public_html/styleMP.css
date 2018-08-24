@@ -1,0 +1,86 @@
+li {
+    list-style: none;
+}
+
+main {
+    box-shadow: 0 10px 25px 7px #555555;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+input[type=range] {
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* refonte graphique */
+body {
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    background-image: url(images/main.jpg);
+}
+
+.btn {
+    background-image: linear-gradient(#51575c, #2b2f34);
+    color: white;
+    border-color: black;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+    text-align: center;
+}
+
+h3, h4 {
+    text-shadow: 2px 2px #555555;
+}
+
+a{
+     color: #b9c9db;
+}
+
+.list-group {
+    background-image: url(images/gauche.png);
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: #b9c9db;
+}
+.list-group-item:hover {
+    background-image: linear-gradient(#3ea3e5, #2a77d9);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px 0 #c0c0c0;
+}
+
+.lecture, .card:hover {
+    box-shadow: 0 0 6px 0 #46b8da;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+audio {
+    display: none;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.videoplayer{
+    margin-bottom: 30px;
+}
+/**/
