@@ -1,7 +1,7 @@
 # Lecteur MediaPlayer Responsive
 
 ## Utilisation de HTML, CSS, Bootsrap, Fontawasome, Javascript et Jquery
-![Screenshot](https://github.com/AzzRun/ENI-Project-s/blob/master/Mediaplayer/res/test.gif)
+![Screenshot](https://github.com/AzzRun/ENI-Project-s/blob/master/Web%20Development%20(Client%20Side)/Mediaplayer/res/test.gif?raw=true)
 ### 1. Pause / Play
 ### 2. Changement de volume
   - Potentiomère
