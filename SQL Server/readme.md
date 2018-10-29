@@ -1,5 +1,5 @@
 
-![screenshot](https://i.gyazo.com/e4ee2ac9ee839dc2a9ef2f6fd0646c1b.gif)
+![screenshot](https://github.com/AzzRun/ENI-Project-s/blob/master/SQL%20Server/screenshot.PNG?raw=true)
 # Présentation
 ### Description
   * Ce cours traite du langage SQL afin de mettre en oeuvre et d’utiliser une base de données relationnelle
