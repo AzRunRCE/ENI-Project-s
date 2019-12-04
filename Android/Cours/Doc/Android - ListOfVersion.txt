@@ -1,0 +1,17 @@
+1.0	Apple Pie (Alpha)
+1.1	Banana Bread (Bêta)
+1.5	Cupcake
+1.6	Donut
+2.x	Éclair
+2.2	Froyo
+2.3.x	Gingerbread
+3.0	Honeycomb
+4.0.x	Ice Cream Sandwich
+4.x	Jelly Bean
+4.4.x	KitKat
+5.x	Lollipop
+6.x	Marshmallow
+7.x	Nougat
+8.x	Oreo
+9.0	Pie
+10.0	Q

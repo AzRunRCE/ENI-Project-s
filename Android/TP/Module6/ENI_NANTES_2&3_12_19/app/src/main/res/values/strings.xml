@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TP_Correction</string>
+    <string name="switch_achete_label">Acheté</string>
+    <string name="switch_a_achete_label">A acheté</string>
+</resources>

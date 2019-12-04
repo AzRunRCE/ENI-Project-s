@@ -1,0 +1,2 @@
+include ':app', ':mondeuxiememodule'
+rootProject.name='TP_Correction'

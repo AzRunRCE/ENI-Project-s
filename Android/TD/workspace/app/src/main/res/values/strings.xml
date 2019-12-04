@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InterfaceGraphique1</string>
+    <string name="TxtNom">Nom :</string>
+    <string name="TxtPrenom">Prénom :</string>
+    <string name="Valider">Valider</string>
+    <string name="Majeur">Majeur</string>
+    <string name="hint_txtNom">Votre nom</string>
+    <string name="hint_txtPrenom">Votre prénom</string>
+</resources>

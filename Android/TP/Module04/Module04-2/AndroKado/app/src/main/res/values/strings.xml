@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroKado</string>
+    <string name="pain_au_chocolat">Pain au chocolat</string>
+    <string name="valeur_demo">1.0 €</string>
+    <string name="valeur_prix">%1$s €</string>
+    <string name="description_demo">Une viennoiserie au beurre et au chocolat</string>
+    <string name="acheter_demo">Acheté</string>
+    <string name="a_acheter_demo">A acheté</string>
+    <string name="contentDescription_http_world_map">http world map</string>
+    <string name="label_info_url_activity">Information URL</string>
+    <string name="msg_snackbar_perm">Une permission est nécessaire !!</string>
+    <string name="label_ok">Ok</string>
+</resources>

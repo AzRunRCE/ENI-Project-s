@@ -1,0 +1,28 @@
+Android
+https://developer.android.com/guide/index.html
+https://developer.android.com/
+https://developer.android.com/training/multiscreen/screendensities
+https://developer.android.com/guide/topics/resources/providing-resources
+https://material.io/tools/icons/?style=baseline
+http://androideasythings.blogspot.com/2015/01/android-studio-shortcuts-needful.html
+https://htmlcolorcodes.com/fr/
+http://jennift.com/dpical.html
+https://www.iloveimg.com/fr/redimensionner-image
+http://iconhandbook.co.uk/reference/chart/android/
+__________________________________
+Navigation inter Activity
+ • with Flag : https://stackoverflow.com/questions/15559838/actionbar-up-navigation-recreates-parent-activity-instead-of-onresume
+ • with LaunchMode : 
+https://books.goalkicker.com/AndroidBook/AndroidNotesForProfessionals.pdf (p237)
+https://inthecheesefactory.com/blog/understand-android-activity-launchmode/en
+
+NavigationDrawer
+ • with Fragments : https://guides.codepath.com/android/Fragment-Navigation-Drawer
+ • with Activities : https://webdevdesigner.com/q/navigation-drawer-to-switch-activities-instead-of-fragments-80857/
+
+Récupération d'un Contact via Intent avec Retour :
+https://stackoverflow.com/questions/18559574/android-contact-picker-with-only-phone-numbers
+
+Librairies :
+ • Gestion d'Images Gallery :
+https://square.github.io/picasso/
