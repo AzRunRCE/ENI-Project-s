@@ -3,15 +3,18 @@ const { SECRET } = require("./env")
 const { check, validationResult } = require("express-validator")
 const express = require("express");
 const { uuid } = require("uuidv4")
-//const swaggerAutogen = require('swagger-autogen')()
-//const outputFile = './swagger_output.json' 
-//swaggerAutogen(outputFile, ['index.js'])
+const swaggerAutogen = require('swagger-autogen')()
+const outputFile = './swagger_output.json' 
+swaggerAutogen(outputFile, ['index.js'])
 
-//const swaggerUi = require('swagger-ui-express'); 
-//const swaggerDocument = require(outputFile); 
-
+const swaggerUi = require('swagger-ui-express'); 
+const swaggerDocument = require(outputFile); 
 
 const app = express()
+app.use(express.urlencoded());
+app.use(express.json());
+
+
 const users = [{
     id: 1,
     userName: 'admin',
@@ -80,9 +83,7 @@ app.post('/cities', checkTokenMiddleware,
 
 
 
-//app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-app.use(express.urlencoded());
-app.use(express.json());
 
 app.listen(3000);
