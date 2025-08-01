@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +18,8 @@
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {
-    "swagger-autogen": "^2.23.7"
+    "swagger-autogen": "^2.23.7",
+    "webpack": "^5.101.0",
+    "webpack-cli": "^6.0.1"
   }
 }
