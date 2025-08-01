@@ -1,0 +1,22 @@
+{
+  "name": "demo_jwt_auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-ui-express": "^5.0.1",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.23.7"
+  }
+}
